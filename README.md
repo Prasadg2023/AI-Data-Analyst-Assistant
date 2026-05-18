@@ -1,6 +1,7 @@
 # AI Data Analyst Assistant
 
 This project is a Streamlit web app that lets you upload a CSV file, inspect the dataset, generate AI insights with Groq, and ask questions about the data.
+
 Live Denmo: https://ai-data-analyst-assistant-evvjnmmbs7gzvk9i7dygkh.streamlit.app/
 
 ## Features
