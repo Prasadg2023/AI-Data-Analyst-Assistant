@@ -1,6 +1,7 @@
 # AI Data Analyst Assistant
 
 This project is a Streamlit web app that lets you upload a CSV file, inspect the dataset, generate AI insights with Groq, and ask questions about the data.
+Live Denmo: https://ai-data-analyst-assistant-evvjnmmbs7gzvk9i7dygkh.streamlit.app/
 
 ## Features
 
@@ -14,7 +15,7 @@ This project is a Streamlit web app that lets you upload a CSV file, inspect the
 
 - `app2.py` - main Streamlit application
 - `requirements.txt` - Python dependencies
-- `.gitignore` - files that should not be pushed to GitHub
+- `.gitattributes` - files that should not be pushed to GitHub
 
 ## Run Locally
 
@@ -37,34 +38,6 @@ GROQ_API_KEY = "your_groq_api_key_here"
 streamlit run app2.py
 ```
 
-## Push To GitHub
-
-1. Initialize git:
-
-```bash
-git init
-```
-
-2. Add files:
-
-```bash
-git add .
-```
-
-3. Commit:
-
-```bash
-git commit -m "Initial Streamlit AI data analyst app"
-```
-
-4. Create a GitHub repository, then connect it:
-
-```bash
-git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO.git
-git branch -M main
-git push -u origin main
-```
-
 ## Deploy On Streamlit Community Cloud
 
 1. Go to https://share.streamlit.io/
@@ -77,3 +50,4 @@ git push -u origin main
 ## Important
 
 Do not hardcode API keys in the source code or push them to GitHub.
+
